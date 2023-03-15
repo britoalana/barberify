@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #000000;
+    display: flex;
+}
+
+.container1 {
+    width: 50%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #D9D9D9 100%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.foto-perfil {
+    text-align: center;
+    margin-top: 6.5rem;
+}
+
+.nome-Usuario {
+    width: 380px;
+    height: 54px;
+    margin-top: 5.5rem;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-left: 8.5rem;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 20px;
+    padding: 0.5rem;
+
+}
+
+.imagens {
+    display: grid;
+}
+
+.salvos {
+
+    margin-left: 11.4rem;
+    margin-top: 7rem;
+
+}
+
+#salvo {
+    margin-left: 12.1rem;
+    margin-top: 1rem;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.calendario {
+    margin-left: 25rem;
+    margin-top: -7.4rem;
+}
+
+#calendario {
+    margin-left: 23.5rem;
+    margin-top: -1.5rem;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.direct {
+    margin-left: 11rem;
+    margin-top: 6.8rem;
+}
+
+#direct {
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    padding-bottom: 10rem;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.container2 {
+    width: 50%;
+    background-color: #000B6D;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+#barbearia {
+    color: #FFFFFF;
+    padding: 2rem 5rem;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.barbearia {
+    width: 496px;
+    height: 58px;
+    margin-left: 4.5rem;
+
+    background: #D9D9D9;
+    border-radius: 25px;
+
+}
+
+#horarios {
+    text-align: center;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 5rem;
+}
+
+.horarios {
+    width: 486px;
+    height: 210px;
+    margin: 3rem 5rem;
+    background: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+#servicos{
+    text-align: center;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.servicos{
+    width: 486px;
+    height: 210px;
+    margin: 3rem 5rem;
+    background: #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+#avaliacao{
+    text-align: center;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
